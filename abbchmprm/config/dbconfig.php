@@ -2,7 +2,7 @@
 
 
 $cfg_dbhost = 'localhost';
-$cfg_dbuser = 'abbmodeapp';
-$cfg_dbpassword = '3rPs79BFaKrMYfYt';
-$cfg_database = 'abbchmprmdb';
+$cfg_dbuser = 'testuser';
+$cfg_dbpassword = 'password';
+$cfg_database = 'abb';
 ?>
