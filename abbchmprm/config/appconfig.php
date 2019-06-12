@@ -36,7 +36,7 @@
    
    $cfg_ekstepapi_url = "https://qa.ekstep.in/api/data/v3/telemetry";
    // $cfg_ekstepapi_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjOTg2ZmFhYTNlMDg0NjU2YjBlMzA1NjBjNTU1NWE0ZSIsImlhdCI6MTUxMTUxNjI1NCwiZXhwIjoxNTQzMDUyMjU0LCJhdWQiOiJBa3NoYXJhIGZvdW5kYXRpb24iLCJzdWIiOiJqcm9ja2V0QGV4YW1wbGUuY29tIiwiR2l2ZW5OYW1lIjoiUHVzaHBhIiwiU3VybmFtZSI6IlRoYW50cnkiLCJFbWFpbCI6InB1c2hwYUBha3NoYXJhLm9yZy5pbiIsIlJvbGUiOlsiTWFuYWdlciIsIlByb2plY3QgQWRtaW5pc3RyYXRvciJdfQ.QVTgGmwF74STnpxZtRPsjM6DVdxmLOjkLb4m6WqqJZg';
-   $cfg_ekstepapi_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmZjMwNWQ1NDg1YjQzNDFiZGEyZmViNmI5ZTU0NjBmYSJ9.O1z7wjXtXPweXL18aEuNwJxglRVrADTC-1o3Mp5GQQY';
+   //$cfg_ekstepapi_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmZjMwNWQ1NDg1YjQzNDFiZGEyZmViNmI5ZTU0NjBmYSJ9.O1z7wjXtXPweXL18aEuNwJxglRVrADTC-1o3Mp5GQQY';
    
    // Reverse Geocode API to get 'District' for given latitude/longitude values
    $cfg_reversegeocodeapi_provider = 'google'; // can use 'google' or 'mapmyindia'
@@ -44,6 +44,6 @@
    $cfg_key_mapmyindiaapi = "rn6pcg7nd8fd2qb5zt6xnuk54585h3ck";
    $cfg_reversegeocodeapiurl_mapmyindia = "https://apis.mapmyindia.com/advancedmaps/v1/".$cfg_key_mapmyindiaapi."/rev_geocode?";
    
-   $cfg_key_googleapi = "AIzaSyARKQR2KJgN1qYCiZ9cBnGMu3YzhHu2YEE"; // test key for sureshkodoor@gmail.com account
+   //$cfg_key_googleapi = "AIzaSyARKQR2KJgN1qYCiZ9cBnGMu3YzhHu2YEE"; // test key for sureshkodoor@gmail.com account
    $cfg_reversegeocodeapiurl_google = "https://maps.google.com/maps/api/geocode/json?latlng=";
 ?>
